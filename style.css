@@ -1,0 +1,317 @@
+nav{
+    height:em;
+    background-color: white;
+    border:2px solid white;
+    width:100%;
+    position:sticky;
+    margin-top:1em;
+  
+}
+
+nav img{
+    position:relative;
+    right:61em;
+    /* bottom:64.5em; */
+    width:2em;
+}
+
+.ret ul{
+    margin-bottom: 3em;
+    
+}
+
+
+ul,.ret ul{ 
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    /* padding-top: 1em; */
+
+}
+nav ul li,.ret ul li{
+    text-decoration: none;
+    list-style-type: none;
+   margin-left:3em;
+}
+
+.all{
+/*    
+    margin-bottom:5em; */
+    /* margin-bottom:3em; */
+    position:relative;
+    z-index: 2;
+}
+
+.earpord{
+    position:relative;
+    display:flex;
+    justify-content:center;
+}
+
+
+
+.pp{
+    width: 15em;
+height: auto;
+position: absolute;
+  left:10em;
+  top:9em;
+}
+
+.pt{
+    height:auto;
+  position: absolute;
+  right:45em;
+}
+
+
+
+.pt,.pp{
+    width: 15em;
+height: auto;
+position: absolute;
+z-index: 2;
+animation:jump 5s;
+
+}
+
+
+
+
+.rir{
+    position:relative;
+
+font-size:5em;
+top:1em;
+right:2.4em;
+}
+
+.tex{
+    position:relative;
+    bottom:32em;
+    line-height: 2em;
+    right:8em;
+}
+
+.tex,.rir{
+    animation: flow 5s
+}
+
+
+
+@keyframes flow{
+    from{
+        transform: scale(2)
+    }
+
+ to{
+        transform: scale(0.7)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.all img{
+    position:relative;
+    /* margin-top:50em; */
+    top:35em;
+    left:30em;
+    z-index: 2;
+    animation:jump 5s ease 1s
+}
+
+
+
+
+
+
+.all p,.text{
+    animation: flow 5s
+}
+
+
+
+.all p{
+    margin-bottom:3em;
+    font-size:10em;
+    font-weight:10em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+   position:relative;
+
+
+}
+.search,.frame{
+    position:absolute;
+    bottom:170em;
+    left:35em;
+}
+
+.frame{
+    left:40em;
+}
+
+.text{position:relative;
+    text-align:center;
+    font-size:3em;
+   margin-left:50%;
+  bottom:10em;
+  right:2.5em;
+
+}
+
+#images ul{
+    display:flex;
+   flex-direction:row;
+   gap:10em;
+   margin-right:45em;
+   position:relative;
+   bottom:8em;
+   right:8em;
+  text-decoration:none;
+   list-style-type: none;
+}
+
+.image ul li{
+    list-style-type: none;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+.airpods{
+
+    
+    margin:5em;
+    margin-bottom:3em;
+    position:relative;
+    z-index: 2;
+}
+
+
+.airpods p{
+    text-align:center;
+    padding-top:2em;
+    font-size:2em;
+    font-weight: 3em;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+.pod{
+    display:flex;
+}
+
+
+.pod .tt{
+    margin-top:5em
+}
+
+
+.pg2 #images{
+    padding-left:50em;
+
+}
+
+
+
+.imaes{
+    position:relative;
+    bottom:8em;
+}
+
+.tt{
+    position:relative;
+    bottom:8em;
+
+}
+
+
+
+.ani{
+    margin-left:25em;
+    padding-top:8em
+    
+}
+
+.ani img{
+    margin-left:2em;
+}
+
+.ani h2{
+    text-align:center;
+    margin-right:10em;
+    font-size:3em;
+   position:relative;
+   bottom:3em;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+.ann{
+    display:grid;
+    grid-template-columns: repeat(4, 200px);
+    /* flex-directl:5emion: row; */
+    text-align:center;
+    place-self: center;
+    position:relative;
+    bottom:7em;
+   
+
+}
+
+
+
+
+.pord{
+    width:8em
+}
+
+.btn{
+    height: 2em;
+    width:5em;
+    color:white;
+    background-color: rgb(59, 59, 211);
+    text-align:center;
+    border-radius:0.4em;
+
+}
+
+
+.footer{
+    display:flex;
+    margin-top:4em;
+    margin-right:5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes jump{
+    to{
+        transform: scale(1000%)
+    }
+}
